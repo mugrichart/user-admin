@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = "information management system"
+authors = ["Richard Mugisha <mugrich007@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+sqlalchemy = "^2.0.37"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

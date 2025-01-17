@@ -1,0 +1,47 @@
+
+.new-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: black;
+    color: white;
+}
+
+.new-user form {
+    border: 1px solid;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+.new-user input, select {
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .2em 1em;
+    background-color: black;
+}
+
+.new-user form div {
+    display: flex;
+    gap: 1em;
+}
+
+.new-user .permissions {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-user .permissions label {
+    display: flex;
+    gap: .5em;
+}
+

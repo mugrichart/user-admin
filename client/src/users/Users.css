@@ -1,0 +1,26 @@
+
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: black;
+    color: white;
+}
+
+td, th {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+td, th {
+    padding: 1em;
+    border: 1px solid;
+}
